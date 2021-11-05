@@ -6,6 +6,7 @@ public class Conversao {
     public static void main(String[] args) {
 
         //DownCast vai precisar ser explicita, já que vai faltar espaço os dados alocados
+        //eles podem trunkar os valores(tirar as virgulas)
         byte b1;
         short s1 = 1000;
         b1 = (byte) s1;
